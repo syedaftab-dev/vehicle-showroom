@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+/* (Hinglish) Ye line sab elements ke liye border-box set karta hai. */
+
+body { margin: 0; font-family: system-ui, Arial, sans-serif; background: #f7f7f9; color: #222; }
+/* (Hinglish) Ye line body ke margins, font, background aur color set karta hai. */
+
+.container { max-width: 1100px; margin: 0 auto; padding: 16px; }
+/* (Hinglish) Ye line central container ki width aur padding set karta hai. */
+
+.nav { background: #0f172a; color: #fff; padding: 10px 16px; display: flex; gap: 12px; align-items: center; }
+/* (Hinglish) Ye line top navbar ka style set karta hai. */
+
+.nav a { color: #fff; text-decoration: none; font-size: 14px; }
+/* (Hinglish) Ye line navbar links ka style set karta hai. */
+
+.btn { background: #2563eb; color: white; border: none; padding: 8px 12px; border-radius: 4px; cursor: pointer; }
+/* (Hinglish) Ye line button ka style set karta hai. */
+
+.btn.secondary { background: #64748b; }
+/* (Hinglish) Ye line secondary button color set karta hai. */
+
+.input { width: 100%; padding: 8px; margin: 6px 0; border: 1px solid #cbd5e1; border-radius: 4px; }
+/* (Hinglish) Ye line input fields ka style set karta hai. */
+
+table { width: 100%; border-collapse: collapse; background: #fff; }
+/* (Hinglish) Ye line table ka basic style set karta hai. */
+
+th, td { border: 1px solid #e2e8f0; padding: 8px; text-align: left; }
+/* (Hinglish) Ye line table cells ka border aur padding set karta hai. */
+
+.card { background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin: 12px 0; }
+/* (Hinglish) Ye line simple card ka style set karta hai. */
+
+.grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+/* (Hinglish) Ye line grid layout set karta hai responsive cards ke liye. */
